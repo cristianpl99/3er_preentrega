@@ -298,9 +298,20 @@ ul {
 }
 
 .ficha2 h4, .ficha2 ul, .ficha2 p {
-  text-align: center;
+  text-align:center;
   justify-content: center;
-  margin: 0 0 16px 0;
+  margin: 0 0 16x 0;
   color: aliceblue;
 }
 /* ESTILO CONTACTO - FIN */
+
+/* MEDIA QUERIES - INICIO */
+/* Small devices (phones, 576px and up) */
+@media (max-width: 576px) {  
+  .encabezado{
+    font-size: medium;
+  }
+  .footer-dark .item.social > a {
+    font-size: 35px;
+  }
+}
